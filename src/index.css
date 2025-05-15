@@ -653,6 +653,36 @@ button:focus {
   text-align: center;
 }
 
+.skillsets {
+  margin-top: 30px;
+}
+
+
+h2.skillset-heading {
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.skillset {
+  border: 1.7px solid #2f334d;
+  border-left: solid 8px #8a49a8;
+  border-radius: 5px !important;
+  opacity: 0.93 !important;
+  transition: all 0.4s ease 0s !important;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: left;;
+  display: table;
+  width: 50%;
+}
+
+.skillset:hover {
+  transform: scale(1.02) !important;
+}
+
+
 .tech-label {
   color: var(--imp-text-color);
   display: block;
@@ -669,6 +699,10 @@ button:focus {
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+  }
+
+  .skillset {
+    width: 90%;
   }
 }
 

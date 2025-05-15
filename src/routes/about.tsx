@@ -3,8 +3,7 @@ import { Particle } from "@/components/Particle";
 import { createFileRoute } from "@tanstack/react-router";
 import { Col, Container, Row } from "react-bootstrap";
 import laptopImg from "@/assets/about.webp";
-import { Techstack } from "@/components/Techstack";
-import { Toolstack } from "@/components/Toolstack";
+import { FaCloud, FaDatabase, FaUserAlt, FaWrench } from "react-icons/fa";
 
 export const Route = createFileRoute("/about")({
   component: RouteComponent,
@@ -28,14 +27,40 @@ function RouteComponent() {
         </Row>
 
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">Skillset</strong>
         </h1>
 
-        <Techstack />
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        <div className="skillsets">
+          <div className="skillset">
+            <h2 className="skillset-heading">
+              <FaUserAlt /> User Facing
+            </h2>
+            <div className="skills">React, Next.js, TypeScript, CSS</div>
+          </div>
+
+          <div className="skillset">
+            <h2 className="skillset-heading">
+              <FaDatabase /> Backend & Data
+            </h2>
+            <div className="skills">
+              Node.js, ASP.NET, C#, Python, MSSQL, PostgresSQL, MongoDB, Redis
+            </div>
+          </div>
+
+          <div className="skillset">
+            <h2 className="skillset-heading">
+              <FaWrench /> Build Tools & CI/CD
+            </h2>
+            <div className="skills">Webpack, babel, Jest, vitest, Docker</div>
+          </div>
+
+          <div className="skillset">
+            <h2 className="skillset-heading">
+              <FaCloud /> Cloud Platforms
+            </h2>
+            <div className="skills">AWS, Azure</div>
+          </div>
+        </div>
       </Container>
     </Container>
   );

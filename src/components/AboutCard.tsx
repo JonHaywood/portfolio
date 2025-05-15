@@ -10,16 +10,17 @@ export function AboutCard() {
             <span className="purple">software developer</span> and I am based in
             beautiful <span className="purple">Colorado</span> 🏔️.
             <br />
+            <br />I earned my Bachelor's in{" "}
+            <span className="purple">Computer Science</span> and I have{" "}
+            <span className="purple">20 years</span> of experience building web
+            applications for clients in healthcare, oil and natural gas,
+            publishing and tech.
             <br />
-            My BS is in <span className="purple">Computer Science</span> and I
-            have over <span className="purple">15 years</span> of experience
-            building web applications for healthcare, oil and natural gas,
-            publishing and technology companies.
             <br />
-            <br />I love turning{" "}
-            <span className="purple">complex challenges</span> into simple,
-            user-friendly tools and enjoy experimenting with new tech like{" "}
-            <span className="purple">generative AI</span>.
+            I'm passionate about solving{" "}
+            <span className="purple">complex problems</span> with intuitive,
+            user-friendly apps and I'm always experimenting with new
+            technologies like <span className="purple">generative AI</span>.
           </p>
         </blockquote>
       </Card.Body>
