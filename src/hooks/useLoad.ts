@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 
+/**
+ * Induces a loading state for 1200ms.
+ */
 export function useLoad() {
   const [load, upadateLoad] = useState(true);
 
