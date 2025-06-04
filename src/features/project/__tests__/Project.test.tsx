@@ -1,9 +1,9 @@
 import { describe, it } from "vitest";
 import { render } from "@testing-library/react";
-import { Toolstack } from "../Toolstack";
+import { Project } from "../Project";
 
-describe("Toolstack Component", () => {
+describe("Project Component", () => {
   it("renders without crashing", () => {
-    render(<Toolstack />);
+    render(<Project />);
   });
-});
+}); 
